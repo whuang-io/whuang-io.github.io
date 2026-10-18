@@ -1,20 +1,24 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ph.D. Candidate in Computer Science, <a href='https://www.usc.edu/'>University of Southern California</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div class="social">
+      <div class="contact-icons">
+        <a href="mailto:weiminhu@usc.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://scholar.google.com/citations?user=P9yew5AAAAAJ&hl=en" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
+        <a href="https://www.linkedin.com/in/weimin-huang-594ab5187" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </div>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # social icons are shown under the profile picture instead (see more_info above)
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +26,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my website! I am a fourth-year Ph.D. candidate in Computer Science at the University of Southern California, advised by Prof. Bistra Dilkina. I am affiliated with the USC Center for Artificial Intelligence in Society ([CAIS](https://cais.usc.edu/)) and the Artificial Intelligence Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). During my studies, I spent time at Microsoft Research and the Pacific Northwest National Laboratory as a Ph.D. intern. Before joining USC, I received my bachelor's and master's degrees from the University of Toronto.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests lie in machine learning, mathematical optimization, and data-driven decision-making. I develop scalable, efficient algorithms that exploit the structure of the problem and patterns in historical solution data, with applications to large-scale, real-world decision-making.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## availability
+
+- I am looking for internship positions for Summer 2027.
