@@ -2,7 +2,6 @@
 layout: about
 title: home
 permalink: /
-subtitle: Ph.D. Candidate in Computer Science, <a href='https://www.usc.edu/'>University of Southern California</a>
 
 profile:
   align: right
