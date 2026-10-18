@@ -43,6 +43,11 @@ My research interests lie in machine learning, mathematical optimization, and da
 <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a></h2>
 
 <style>
+  .publications .abbr .badge,
+  .publications .abbr .badge div,
+  .publications .abbr .badge a {
+    color: #fff;
+  }
   .home-publications .abbr figure,
   .home-publications .abbr .preview {
     display: none;
