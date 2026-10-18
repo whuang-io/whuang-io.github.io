@@ -6,4 +6,6 @@ nav: true
 nav_order: 3
 cv_pdf: /assets/pdf/CV_Weimin_Huang.pdf
 cv_format: rendercv
+toc:
+  sidebar: left
 ---

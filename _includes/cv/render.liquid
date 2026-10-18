@@ -51,9 +51,8 @@
       {% assign cv = site.data.cv.cv %}
 
       {% if cv.summary %}
-        <a class="anchor" id="research-interests"></a>
         <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">Research Interests</h3>
+          <h3 id="research-interests" class="card-title font-weight-medium">Research Interests</h3>
           <p class="card-text font-weight-light mb-0">{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
         </div>
       {% endif %}
@@ -62,9 +61,8 @@
         {% assign section_title = section_pair[0] %}
         {% assign section_entries = section_pair[1] %}
 
-        <a class="anchor" id="{{ section_title | slugify }}"></a>
         <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+          <h3 id="{{ section_title | slugify }}" class="card-title font-weight-medium">{{ section_title }}</h3>
           <div>
             {% if section_title == 'Education' %}
               {% assign entries = section_entries | al_cv_sort_by_date %}
