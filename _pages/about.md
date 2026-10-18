@@ -28,7 +28,7 @@ latest_posts:
   enabled: false
 ---
 
-Welcome to my website! I am a fourth-year Ph.D. candidate in Computer Science at the University of Southern California, advised by Prof. Bistra Dilkina. I am affiliated with the USC Center for Artificial Intelligence in Society ([CAIS](https://cais.usc.edu/)) and the Artificial Intelligence Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). During my studies, I spent time at Microsoft Research and the Pacific Northwest National Laboratory as a Ph.D. intern. Before joining USC, I received my bachelor's and master's degrees from the University of Toronto.
+Welcome to my website! I am a fourth-year Ph.D. candidate in Computer Science at the University of Southern California, advised by Prof. [Bistra Dilkina](https://viterbi.usc.edu/directory/faculty/Dilkina/Bistra). I am affiliated with the USC Center for Artificial Intelligence in Society ([CAIS](https://cais.usc.edu/)) and the Artificial Intelligence Institute for Advances in Optimization ([AI4OPT](https://www.ai4opt.org/)). During my studies, I spent time at Microsoft Research and the Pacific Northwest National Laboratory as a Ph.D. intern. Before joining USC, I received my bachelor's and master's degrees from the University of Toronto.
 
 My research interests lie in machine learning, mathematical optimization, and data-driven decision-making. I develop scalable, efficient algorithms that exploit the structure of the problem and patterns in historical solution data, with applications to large-scale, real-world decision-making.
 
