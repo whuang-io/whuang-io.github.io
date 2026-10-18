@@ -9,34 +9,6 @@ cv:
     historical solution data, with applications to large-scale, real-world decision-making.
 
   sections:
-    Education:
-      - institution: University of Southern California
-        studyType: Ph.D. in Computer Science
-        start_date: 2023-08
-        end_date: present
-        highlights:
-          - "Advisor: Bistra Dilkina"
-          - "Expected graduation: December 2027"
-
-      - institution: University of Toronto
-        studyType: Master of Applied Science in Operations Research
-        start_date: 2021-09
-        end_date: 2023-08
-        highlights:
-          - "Advisor: Elias Khalil"
-
-      - institution: University of Toronto
-        studyType: Bachelor of Applied Science in Engineering Science
-        area: Machine Intelligence Track (with Honors)
-        start_date: 2016-09
-        end_date: 2021-08
-
-    Presentations:
-      - bullet: "**ML-Guided Primal Heuristics for Mixed Binary Quadratic Programs**, 2026 INFORMS Optimization Society Conference."
-      - bullet: "**ML-Guided Primal Heuristics for Mixed Binary Quadratic Programs**, AAAI 2026 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
-      - bullet: "**Machine Learning Guided Optimal Transmission Switching to Mitigate Wildfire Ignition Risk**, AAAI 2026 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
-      - bullet: "**Distributional MIPLIB: a Multi-Domain Library for Advancing ML-Guided MILP Methods**, AAAI 2025 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
-
     Experience:
       - company: Microsoft
         position: Research Intern
@@ -71,6 +43,34 @@ cv:
         date: 2019
         highlights:
           - Neural architecture search for computer vision models in computational pathology
+
+    Education:
+      - institution: University of Southern California
+        studyType: Ph.D. in Computer Science
+        start_date: 2023-08
+        end_date: present
+        highlights:
+          - "Advisor: Bistra Dilkina"
+          - "Expected graduation: December 2027"
+
+      - institution: University of Toronto
+        studyType: Master of Applied Science in Operations Research
+        start_date: 2021-09
+        end_date: 2023-08
+        highlights:
+          - "Advisor: Elias Khalil"
+
+      - institution: University of Toronto
+        studyType: Bachelor of Applied Science in Engineering Science
+        area: Machine Intelligence Track (with Honors)
+        start_date: 2016-09
+        end_date: 2021-08
+
+    Presentations:
+      - bullet: "**ML-Guided Primal Heuristics for Mixed Binary Quadratic Programs**, 2026 INFORMS Optimization Society Conference."
+      - bullet: "**ML-Guided Primal Heuristics for Mixed Binary Quadratic Programs**, AAAI 2026 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
+      - bullet: "**Machine Learning Guided Optimal Transmission Switching to Mitigate Wildfire Ignition Risk**, AAAI 2026 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
+      - bullet: "**Distributional MIPLIB: a Multi-Domain Library for Advancing ML-Guided MILP Methods**, AAAI 2025 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
 
     Honors and Awards:
       - title: Viterbi Fellowship
