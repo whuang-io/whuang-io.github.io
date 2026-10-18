@@ -39,3 +39,9 @@ My research interests lie in machine learning, mathematical optimization, and da
 <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
 
 {% include news.liquid limit=true %}
+
+<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a></h2>
+
+<div class="publications">
+  {% bibliography --group_by none %}
+</div>
