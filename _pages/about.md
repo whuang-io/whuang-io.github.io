@@ -48,12 +48,8 @@ My research interests lie in machine learning, mathematical optimization, and da
   .publications .abbr .badge a {
     color: #fff;
   }
-  .home-publications .abbr figure,
-  .home-publications .abbr .preview {
-    display: none;
-  }
 </style>
 
-<div class="publications home-publications">
+<div class="publications">
   {% bibliography --group_by none %}
 </div>
