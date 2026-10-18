@@ -20,15 +20,15 @@ cv:
         position: PhD Intern
         date: 2024
         highlights:
-          - Algorithms for large-scale Mixed-Integer Nonlinear Optimization
+          - "Algorithms for large-scale Mixed-Integer Nonlinear Optimization [[C4]](https://ojs.aaai.org/index.php/SOCS/article/view/35978)"
 
       - company: University of Southern California
         position: Research Assistant
         start_date: 2023-08
         end_date: present
         highlights:
-          - Machine learning-guided Mixed-Integer Linear Programming methods
-          - Primal heuristics for Mixed-Integer Nonlinear Optimization
+          - "Machine learning-guided Mixed-Integer Linear Programming methods [[P1]](https://arxiv.org/abs/2406.06954), [[P2]](https://arxiv.org/abs/2508.07515), [[C5]](https://www.sciencedirect.com/science/article/pii/S0378779626009806)"
+          - "Primal heuristics for Mixed-Integer Nonlinear Optimization [[C4]](https://ojs.aaai.org/index.php/SOCS/article/view/35978), [[C6]](https://ojs.aaai.org/index.php/SOCS/article/view/43075)"
           - LLM-driven refinement for classical solvers (in progress)
 
       - company: University of Toronto
@@ -36,13 +36,13 @@ cv:
         start_date: 2021-09
         end_date: 2023-08
         highlights:
-          - Machine learning and mathematical optimization for sustainable cities
+          - "Machine learning and mathematical optimization for sustainable cities [[J1]](https://doi.org/10.1111/jiec.13591), [[C2]](https://doi.org/10.1145/3530190.3534828), [[C3]](https://ojs.aaai.org/index.php/AAAI/article/view/26667)"
 
       - company: University of Toronto
         position: Research Assistant
         date: 2019
         highlights:
-          - Neural architecture search for computer vision models in computational pathology
+          - "Neural architecture search for computer vision models in computational pathology [[C1]](https://link.springer.com/chapter/10.1007/978-3-030-58526-6_27)"
 
     Education:
       - institution: University of Southern California
