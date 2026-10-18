@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Badge colors for publication venues (keyed by the `abbr` field in _bibliography/papers.bib)
+"arXiv":
+  color: "#b31b1b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"SoCS":
+  color: "#2e7d32"
 
-"Vision":
-  color: "#009f36"
+"EPSR":
+  color: "#e65100"
+
+"AAAI":
+  color: "#1565c0"
+
+"ECCV":
+  color: "#6a1b9a"

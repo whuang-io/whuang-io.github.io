@@ -42,6 +42,13 @@ My research interests lie in machine learning, mathematical optimization, and da
 
 <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Publications</a></h2>
 
-<div class="publications">
+<style>
+  .home-publications .abbr figure,
+  .home-publications .abbr .preview {
+    display: none;
+  }
+</style>
+
+<div class="publications home-publications">
   {% bibliography --group_by none %}
 </div>
