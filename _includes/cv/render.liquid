@@ -1,0 +1,102 @@
+{% comment %}
+  Local override of al_folio_cv's cv/render.liquid.
+  Renders the sections of _data/cv.yml in the order they are listed, reusing the gem's per-section
+  templates (cv/education.liquid, cv/experience.liquid, ...), with a "Download PDF" button from page.cv_pdf.
+{% endcomment %}
+
+{% comment %}
+  al_folio_cv 1.0.2 relies on Bootstrap compat CSS for its lists, which this site has off, so CV lists
+  get stray bullets and no dividers. These are the rules al_folio_cv 1.0.3 adds; drop them after upgrading.
+{% endcomment %}
+<style>
+  .cv ul.list-group {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .cv ul.list-group > li.list-group-item {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  .cv ul.list-group-flush > li.list-group-item:last-child {
+    border-bottom: 0;
+  }
+  table.table-cv td,
+  table.table-cv th {
+    border-top: 0;
+  }
+  .cv ul.cv-bullets {
+    margin: 0;
+    padding-left: 1.25rem;
+  }
+  .cv ul.cv-bullets > li {
+    padding: 0.25rem 0;
+  }
+</style>
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.cv_pdf %}
+      <p>
+        <a class="btncv" href="{{ page.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-file-pdf"></i> Download PDF
+        </a>
+      </p>
+    {% endif %}
+  </header>
+
+  <article>
+    <div class="cv">
+      {% assign cv = site.data.cv.cv %}
+
+      {% if cv.summary %}
+        <a class="anchor" id="research-interests"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">Research Interests</h3>
+          <p class="card-text font-weight-light mb-0">{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        </div>
+      {% endif %}
+
+      {% for section_pair in cv.sections %}
+        {% assign section_title = section_pair[0] %}
+        {% assign section_entries = section_pair[1] %}
+
+        <a class="anchor" id="{{ section_title | slugify }}"></a>
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+          <div>
+            {% if section_title == 'Education' %}
+              {% assign entries = section_entries | al_cv_sort_by_date %}
+              {% include cv/education.liquid %}
+            {% elsif section_title == 'Experience' %}
+              {% assign entries = section_entries | al_cv_sort_by_date %}
+              {% include cv/experience.liquid %}
+            {% elsif section_title contains 'Publications' or section_title == 'Preprints' %}
+              {% assign entries = section_entries %}
+              {% include cv/publications.liquid %}
+            {% elsif section_title contains 'Awards' %}
+              {% assign entries = section_entries %}
+              {% include cv/awards.liquid %}
+            {% elsif section_title == 'Skills' %}
+              {% assign entries = section_entries %}
+              {% include cv/skills.liquid %}
+            {% else %}
+              <ul class="cv-bullets card-text font-weight-light">
+                {% for entry in section_entries %}
+                  {% if entry.bullet %}
+                    <li>{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                  {% elsif entry.label %}
+                    <li>
+                      <strong>{{ entry.label }}:</strong> {{ entry.details }}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </article>
+</div>

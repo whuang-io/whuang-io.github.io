@@ -1,189 +1,156 @@
+# CV content rendered on /cv/ by _includes/cv/render.liquid.
+# Sections render in the order listed here. Keep this in sync with assets/pdf/CV_Weimin_Huang.pdf.
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
-
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  name: Weimin Huang
+  email: weiminhu@usc.edu
+  summary: >
+    My research interests lie in machine learning, mathematical optimization, and data-driven decision-making.
+    I develop scalable, efficient algorithms that exploit the structure of optimization problems and patterns in
+    historical solution data, with applications to large-scale, real-world decision-making.
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University of Southern California
+        studyType: Ph.D. in Computer Science
+        start_date: 2023-08
+        end_date: present
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Bistra Dilkina"
+          - "Expected graduation: December 2027"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Toronto
+        studyType: Master of Applied Science in Operations Research
+        start_date: 2021-09
+        end_date: 2023-08
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisor: Elias Khalil"
+
+      - institution: University of Toronto
+        studyType: Bachelor of Applied Science in Engineering Science
+        area: Machine Intelligence Track (with Honors)
+        start_date: 2016-09
+        end_date: 2021-08
+
+    Preprints:
+      - title: "Domain-Aware Machine Learning for Accelerating MILP-Based Motion Planning with Temporal Logic and Chance Constraints"
+        summary: Junyang Cai, **Weimin Huang**, Brendan Long, Matthew Cleaveland, Jyotirmoy V. Deshmukh, Lars Lindemann, Bistra Dilkina
+        publisher: arXiv preprint
+        date: 2025
+        url: https://arxiv.org/abs/2508.07515
+
+      - title: "Distributional MIPLIB: a Multi-Domain Library for Advancing ML-Guided MILP Methods"
+        summary: "**Weimin Huang**, Taoan Huang, Aaron M. Ferber, Bistra Dilkina"
+        publisher: arXiv preprint
+        date: 2024
+        url: https://arxiv.org/abs/2406.06954
+
+    Conference Publications:
+      - title: ML-Guided Primal Heuristics for Mixed Binary Quadratic Programs
+        summary: "**Weimin Huang**, Natalie M. Isenberg, Jan Drgona, Draguna L. Vrabie, Bistra Dilkina"
+        publisher: Proceedings of the International Symposium on Combinatorial Search (SoCS 2026)
+        date: 2026
+        url: https://ojs.aaai.org/index.php/SOCS/article/view/43075
+
+      - title: Machine Learning Guided Optimal Transmission Switching to Mitigate Wildfire Ignition Risk
+        summary: "**Weimin Huang**, Ryan Piansky, Bistra Dilkina, Daniel K. Molzahn"
+        publisher: Power Systems Computation Conference (PSCC 2026)
+        date: 2026
+        url: https://www.sciencedirect.com/science/article/pii/S0378779626009806
+
+      - title: Efficient Primal Heuristics for Mixed Binary Quadratic Programs Using Suboptimal Rounding Guidance
+        summary: "**Weimin Huang**, Natalie M. Isenberg, Jan Drgona, Draguna L. Vrabie, Bistra Dilkina"
+        publisher: Proceedings of the International Symposium on Combinatorial Search (SoCS 2025)
+        date: 2025
+        url: https://ojs.aaai.org/index.php/SOCS/article/view/35978
+
+      - title: "Walkability Optimization: Formulations, Algorithms, and a Case Study of Toronto"
+        summary: "**Weimin Huang**, Elias Khalil"
+        publisher: Proceedings of the AAAI Conference on Artificial Intelligence (AAAI 2023)
+        date: 2023
+        url: https://ojs.aaai.org/index.php/AAAI/article/view/26667
+
+      - title: "Note: Image-based Prediction of House Attributes with Deep Learning"
+        summary: "**Weimin Huang**, Alexander W. Olson, Elias Khalil, Shoshanna Saxe"
+        publisher: Proceedings of the ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS 2022), short paper
+        date: 2022
+
+      - title: On Transferability of Histological Tissue Labels in Computational Pathology
+        summary: Mahdi S. Hosseini, Lyndon Chan, **Weimin Huang**, Yichen Wang, Danial Hasan, Corwyn Rowsell, Savvas Damaskinos, Konstantinos N. Plataniotis
+        publisher: Proceedings of the European Conference on Computer Vision (ECCV 2020)
+        date: 2020
+        url: https://link.springer.com/chapter/10.1007/978-3-030-58526-6_27
+
+    Journal Publications:
+      - title: Image-Based Prediction of Residential Building Attributes with Deep Learning
+        summary: "**Weimin Huang**, Alexander W. Olson, Elias Khalil, Shoshanna Saxe"
+        publisher: Journal of Industrial Ecology
+        date: 2024
+
+    Presentations:
+      - bullet: "**ML-Guided Primal Heuristics for Mixed Binary Quadratic Programs**, 2026 INFORMS Optimization Society Conference."
+      - bullet: "**ML-Guided Primal Heuristics for Mixed Binary Quadratic Programs**, AAAI 2026 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
+      - bullet: "**Machine Learning Guided Optimal Transmission Switching to Mitigate Wildfire Ignition Risk**, AAAI 2026 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
+      - bullet: "**Distributional MIPLIB: a Multi-Domain Library for Advancing ML-Guided MILP Methods**, AAAI 2025 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Microsoft
+        position: Research Intern
+        date: 2026
         highlights:
-          - Relativity
-          - Description 2.
+          - Foundation models for real-time power grid topology optimization (in preparation for submission to Nature Energy)
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Pacific Northwest National Laboratory
+        position: PhD Intern
+        date: 2024
         highlights:
-          - Description 1.
-          - Description 2.
+          - Algorithms for large-scale Mixed-Integer Nonlinear Optimization
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: University of Southern California
+        position: Research Assistant
+        start_date: 2023-08
+        end_date: present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Machine learning-guided Mixed-Integer Linear Programming methods
+          - Primal heuristics for Mixed-Integer Nonlinear Optimization
+          - LLM-driven refinement for classical solvers (in progress)
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: University of Toronto
+        position: Research Assistant
+        start_date: 2021-09
+        end_date: 2023-08
+        highlights:
+          - Machine learning and mathematical optimization for sustainable cities
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: University of Toronto
+        position: Research Assistant
+        date: 2019
+        highlights:
+          - Neural architecture search for computer vision models in computational pathology
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    Honors and Awards:
+      - title: Viterbi Fellowship
+        awarder: University of Southern California
+        date: 2023
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+      - title: MIE Graduate Student Fellowship
+        awarder: University of Toronto
+        date: 2021
+        summary: 2021–2023
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - title: Dean's Honour List
+        awarder: University of Toronto
+        date: 2016
+        summary: 2016–2020
+
+    Service:
+      - bullet: "**Program Committee:** AAAI 2027"
+      - bullet: "**Reviewer:** AAAI 2026"
+      - bullet: NSF AI4OPT Student Leadership Council
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Programming
+        keywords: [C, MATLAB, Python, R, SQL, LaTeX]
+      - name: Deep Learning
+        keywords: [PyTorch, Keras, Caffe, TensorFlow, Sklearn]
+      - name: Mathematical Optimization
+        keywords: [CP Optimizer, Gurobi, SCIP, OR-Tools, MiniZinc]

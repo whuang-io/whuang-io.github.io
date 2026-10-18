@@ -1,14 +1,7 @@
 name: Render a CV
+# Manual only: the CV PDF is maintained by hand at assets/pdf/CV_Weimin_Huang.pdf, and _data/cv.yml
+# only feeds the /cv/ page, so editing it should not regenerate a PDF.
 on:
-  push:
-    branches:
-      - main
-      - master
-    paths:
-      - "_data/cv.yml"
-      - "assets/rendercv/design.yaml"
-      - "assets/rendercv/locale.yaml"
-      - "assets/rendercv/settings.yaml"
   workflow_call:
   workflow_dispatch:
 permissions:
