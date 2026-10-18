@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # social icons are shown under the profile picture instead (see more_info above)
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # the News section is rendered in the page body below so its heading can be capitalized
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -32,6 +32,10 @@ Welcome to my website! I am a fourth-year Ph.D. candidate in Computer Science at
 
 My research interests lie in machine learning, mathematical optimization, and data-driven decision-making. I develop scalable, efficient algorithms that exploit the structure of the problem and patterns in historical solution data, with applications to large-scale, real-world decision-making.
 
-## availability
+## Availability
 
 - I am looking for internship positions for Summer 2027.
+
+<h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
+
+{% include news.liquid limit=true %}
