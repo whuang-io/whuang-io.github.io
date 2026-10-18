@@ -75,9 +75,6 @@
             {% elsif section_title contains 'Publications' or section_title == 'Preprints' %}
               {% assign entries = section_entries %}
               {% include cv/publications.liquid %}
-            {% elsif section_title contains 'Awards' %}
-              {% assign entries = section_entries %}
-              {% include cv/awards.liquid %}
             {% elsif section_title == 'Skills' %}
               {% assign entries = section_entries %}
               {% include cv/skills.liquid %}

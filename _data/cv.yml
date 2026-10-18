@@ -73,19 +73,9 @@ cv:
       - bullet: "**Distributional MIPLIB: a Multi-Domain Library for Advancing ML-Guided MILP Methods**, AAAI 2025 Bridge Program - Combining AI and OR/MS for Better Trustworthy Decision Making."
 
     Honors and Awards:
-      - title: Viterbi Fellowship
-        awarder: University of Southern California
-        date: 2023
-
-      - title: MIE Graduate Student Fellowship
-        awarder: University of Toronto
-        date: 2021
-        summary: 2021–2023
-
-      - title: Dean's Honour List
-        awarder: University of Toronto
-        date: 2016
-        summary: 2016–2020
+      - bullet: "**Viterbi Fellowship**, University of Southern California, 2023"
+      - bullet: "**MIE Graduate Student Fellowship**, University of Toronto, 2021–2023"
+      - bullet: "**Dean's Honour List**, University of Toronto, 2016–2020"
 
     Service:
       - bullet: "**Program Committee:** AAAI 2027"
