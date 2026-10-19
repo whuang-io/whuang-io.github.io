@@ -13,6 +13,7 @@ profile:
         <a href="mailto:weiminhu@usc.edu" title="Email"><i class="fa-solid fa-envelope"></i></a>
         <a href="https://scholar.google.com/citations?user=P9yew5AAAAAJ&hl=en" title="Google Scholar" rel="external nofollow noopener" target="_blank"><i class="ai ai-google-scholar"></i></a>
         <a href="https://www.linkedin.com/in/weimin-huang-594ab5187" title="LinkedIn" rel="external nofollow noopener" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="/assets/pdf/CV_Weimin_Huang.pdf" title="CV" target="_blank" rel="noopener"><i class="ai ai-cv"></i></a>
       </div>
     </div>
 
