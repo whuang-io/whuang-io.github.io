@@ -35,7 +35,7 @@ My research interests lie in machine learning, mathematical optimization, and da
 
 ## Availability
 
-- I am looking for internship positions for Summer 2027.
+- I am looking for internship positions for Spring/Summer 2027.
 
 <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
 
